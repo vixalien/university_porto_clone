@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -7,14 +8,25 @@
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
-  
-</body>
   <nav>
     Top Nav
   </nav>
   <nav>
     Main Nav
   </nav>
-  <div></div>
+  <div class="flex w-auto h-[600px] bg-black relative">
+    <img class="absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover"
+      src="./images/estudantes-feup-2024-igualdade_05_destaque.format-jpeg.jpeg">
+    <div class="absolute bottom-12 left-12 bg-gray-800 bg-opacity-70 max-w-96 p-5">
+      <div class=" text-white text-opacity-80 flex flex-col gap-4 items-start">
+        <div class="font-bold text-2xl leading-tight">A University committed to gender equality</div>
+        <div>The "UP Igualdade" - Plan for Gender Equality 2025-2028 includes 72 measures to promote gender equality and
+          inclusion at U.Porto.</div>
+        <div class="bg-amber-800 px-2 mt-2">See More</div>
+      </div>
+    </div>
+  </div>
+
 </html>
